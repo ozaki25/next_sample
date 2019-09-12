@@ -16,7 +16,9 @@ const Home = () => (
       <p className="description">
         To get started, edit <code>pages/index.js</code> and save to reload.
       </p>
-
+      <p className="description">
+        <Link href="/todo">TODO LIST</Link>
+      </p>
       <div className="row">
         <Link href="https://github.com/zeit/next.js#setup">
           <a className="card">
